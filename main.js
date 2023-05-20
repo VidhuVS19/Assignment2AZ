@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded",function(){
 var bulboff = document.querySelector("#bulboff")
 var bulbon = document.querySelector("#bulbon")
 var button = document.querySelector(".CircleButton")
@@ -19,4 +20,5 @@ button.addEventListener("click",function(){
     else{
         switchOFF()
     }
+})
 })

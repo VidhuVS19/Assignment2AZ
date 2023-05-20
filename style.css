@@ -11,7 +11,7 @@
     padding: 200px;
 }
 .bulb{
-    position:absolute;
+    /* position:absolute; */
     height: 200px;
     width: min-content;
 }
