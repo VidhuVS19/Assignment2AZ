@@ -10,7 +10,8 @@
     align-items: center;
     padding: 200px;
 }
-img{
+.bulb{
+    position:absolute;
     height: 200px;
     width: min-content;
 }
