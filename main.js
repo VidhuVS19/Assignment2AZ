@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
 let flag = false;
+var button = document.querySelector("button");
 var image = document.getElementById("bulb");
 var src=image.src;
 var bulboff="file:///C:/Users/91987/Desktop/Webdev%20Learning%202023/Algozenith/Assignment%202/light-bulb-off.png"
@@ -16,7 +17,7 @@ function switchOFFBulb() {
 
 console.log(src);
 
-addEventListener("click", function() {
+button.addEventListener("click", function() {
   if (src === bulboff) {
     switchONBulb();
     flag = true;
